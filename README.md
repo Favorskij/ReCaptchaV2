@@ -1,6 +1,6 @@
 # reCaptcha
 
-**Пример использования reCaptcha**
+**Пример использования reCaptcha V2**
 
 
 
