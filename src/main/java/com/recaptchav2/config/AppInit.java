@@ -1,4 +1,4 @@
-package com.recaptcha.config;
+package com.recaptchav2.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 

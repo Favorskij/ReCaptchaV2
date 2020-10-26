@@ -1,4 +1,4 @@
-package com.recaptcha.config;
+package com.recaptchav2.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver;
 import java.util.Properties;
 
 @Configuration
-@ComponentScan({"com.recaptcha.controller"})
+@ComponentScan({"com.recaptchav2.controller"})
 public class Config implements WebMvcConfigurer{
 
 

@@ -1,6 +1,6 @@
-package com.recaptcha;
+package com.recaptchav2;
 
-import com.recaptcha.config.AppInit;
+import com.recaptchav2.config.AppInit;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
