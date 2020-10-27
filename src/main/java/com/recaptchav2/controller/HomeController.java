@@ -10,6 +10,7 @@ import org.springframework.web.client.RestTemplate;
 
 import javax.servlet.http.HttpServletRequest;
 
+
 @Controller
 public class HomeController {
 
@@ -47,6 +48,7 @@ public class HomeController {
 
         // Делаем запрос
         ReCaptchaModel reCaptchaModel = restTemplate.getForObject(paramsRequest, ReCaptchaModel.class);
+//        ReCaptchaModel reCaptchaModel = restTemplate.exchange(paramsRequest, POST, null,ReCaptchaModel.class).getBody();
 
 
         assert reCaptchaModel != null;
