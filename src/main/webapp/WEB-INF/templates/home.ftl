@@ -17,7 +17,7 @@
 <form method="post" action="/user">
 
     <div class="g-recaptcha" data-sitekey="6Lfmg8gZAAAAAN6X2HtCOjRqNbn3H8_OGJXqrSCH"></div><br>
-    <button type="submit" id="submit1">Пройти</button>
+    <button type="submit">Пройти</button>
 
 </form>
 
